@@ -1,0 +1,4 @@
+baseURL = "https://til.elver.me/"
+languageCode = "en-gb"
+title = "til.elver.me"
+disableKinds = ["taxonomy", "term"]
