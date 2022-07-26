@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>til.elver.me</title>
+    <link>https://til.elver.me/</link>
+    <description>Recent content on til.elver.me</description>
+    <language>en-gb</language>
+    <atom:link href="https://til.elver.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Something something</title>
+      <link>https://til.elver.me/docker-network-outside-container/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://til.elver.me/docker-network-outside-container/</guid>
+      <description>&lt;p&gt;If you need to refer to something running on your host machine such as a
+database server like MySQL or PostgreSQL from your Docker container on macOS you
+can use &lt;code&gt;host.docker.internal&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For example, for Redis:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;host.docker.internal:6379
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Something something</title>
+      <link>https://til.elver.me/git-create-branch-without-history/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://til.elver.me/git-create-branch-without-history/</guid>
+      <description>&lt;p&gt;You can create a branch in git that shares not history at all.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git checkout --orphan &amp;lt;name_you_choose_for_orphan_branch&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is generally a weird thing to want to do, but can come in handy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Something something</title>
+      <link>https://til.elver.me/github-action-restrict-by-path/</link>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://til.elver.me/github-action-restrict-by-path/</guid>
+      <description>&lt;p&gt;You can create a branch in git that shares not history at all.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git checkout --orphan &amp;lt;name_you_choose_for_orphan_branch&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is generally a weird thing to want to do, but can come in handy.
+You can restrict a workflow in GitHub Actions to only apply to a certain branch,
+I think most people are aware of that, but you can also make it only apply to
+paths too.&lt;/p&gt;
+&lt;p&gt;on:
+push:
+branches:
+- master
+paths:
+- &amp;lsquo;include-me/**&amp;rsquo;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Something something</title>
+      <link>https://til.elver.me/my-first-post/</link>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://til.elver.me/my-first-post/</guid>
+      <description>&lt;h1 id=&#34;this-is-my-first-post&#34;&gt;This is my first post&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;puts &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hello&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Something something</title>
+      <link>https://til.elver.me/rebase-with-2-commits/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://til.elver.me/rebase-with-2-commits/</guid>
+      <description>&lt;p&gt;If you want to rebase but only have two commits Git won&amp;rsquo;t let you.&lt;/p&gt;
+&lt;p&gt;You can use the &lt;code&gt;--root&lt;/code&gt; option to an interactive rebase&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git rebase -i --root
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Something something</title>
+      <link>https://til.elver.me/restart-docker-compose-services/</link>
+      <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://til.elver.me/restart-docker-compose-services/</guid>
+      <description>&lt;h1 id=&#34;restarting-individual-docker-compose-services&#34;&gt;Restarting individual Docker compose services&lt;/h1&gt;
+&lt;p&gt;Docker compose makes it easy to specify services that can all be started
+together. However, sometimes it&amp;rsquo;s useful to restart a single service to avoid
+having to restart everything. For example, you might have &lt;code&gt;api&lt;/code&gt; and &lt;code&gt;redis&lt;/code&gt;
+services.&lt;/p&gt;
+&lt;p&gt;To restart just the API.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;docker compose restart api
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

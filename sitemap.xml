@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://til.elver.me/docker-network-outside-container/</loc>
+    <lastmod>2022-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://til.elver.me/git-create-branch-without-history/</loc>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://til.elver.me/github-action-restrict-by-path/</loc>
+    <lastmod>2022-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://til.elver.me/my-first-post/</loc>
+    <lastmod>2022-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://til.elver.me/rebase-with-2-commits/</loc>
+    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://til.elver.me/restart-docker-compose-services/</loc>
+    <lastmod>2022-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://til.elver.me/</loc>
+  </url>
+</urlset>
